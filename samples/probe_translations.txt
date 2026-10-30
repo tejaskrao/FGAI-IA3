@@ -1,0 +1,128 @@
+[gender / occupation] The nurse told the engineer that she would be late.
+   Transformer (scratch)       : नर्दी ने इंजीनियरिंग कहा कि वह हत्या हो जायेगी।
+   mT5-small (fine-tuned)      : नर्मनी ने इंजीनियरी को बताया कि वह लम्बी होगी।
+   Llama-3.2-1B (few-shot)     : नर्स ने इंजीनियर को बताया कि वह जल्दी नहीं पहुंचेगी।
+   Llama-3.2-1B (LoRA)         : नर्स ने इंजीनियर से बताया कि वह देर से पहुंचेगी।
+   Gemma-3-1B (few-shot)       : नर्स ने इंजीनियर को बताया कि वह देर से आ जाएगी।
+   Gemma-3-1B (LoRA)           : नर्स ने इंजीनियर को बताया कि वह देर से आ जाएगी।
+
+[gender / occupation] The doctor asked the nurse to help him with the patient.
+   Transformer (scratch)       : डॉक्टर ने कहा कि धैर्य से काम करते हुए कहा।
+   mT5-small (fine-tuned)      : डॉक्टर ने डॉक्टर से कहा कि वह रोगी के साथ मदद करने के लिए उन्हें मदद करने के लिए तैयार हो।
+   Llama-3.2-1B (few-shot)     : डॉक्टर ने नर्स से मदद के लिए पatient को सहायता देने के लिए कहा।
+   Llama-3.2-1B (LoRA)         : डॉक्टर ने नर्स से पात्र के साथ मदद करने के लिए कहा।
+   Gemma-3-1B (few-shot)       : डॉक्टर नर्स को मरीज के साथ मदद करने के लिए डॉक्टर ने नर्स को कहा।
+   Gemma-3-1B (LoRA)           : डॉक्टर ने नर्स से मरीज की मदद करने के लिए कहा।
+
+[gender / occupation] My boss is a very strong leader and my secretary is very helpful.
+   Transformer (scratch)       : मेरी गहन बहुत मजबूत और मेरी सद्भावक है।
+   mT5-small (fine-tuned)      : मेरा बॉँव बहुत ही शक्तिशाली और मेरा सचिव बहुत प्रभावशाली है।
+   Llama-3.2-1B (few-shot)     : मेरे मालिक एक बहुत ही मजबूत नेता है और मेरी सहायक एक बहुत ही सहायक है।
+   Llama-3.2-1B (LoRA)         : मेरे मालिक एक बहुत ही मजबूत नेता है और मेरी सेक्रेटरी बहुत सहायक है।
+   Gemma-3-1B (few-shot)       : मेरा बॉस एक बहुत ही मजबूत नेता है और मेरी सहायक सचिव बहुत मददगार है।
+   Gemma-3-1B (LoRA)           : मेरे बॉस एक बहुत मजबूत नेता हैं और मेरे सहायक बहुत सहायक हैं।
+
+[idiom] It is raining cats and dogs, so let us stay inside.
+   Transformer (scratch)       : यह खाना और खाना खाने के अंदर ही खाना है, तो हम अंदर ही नहीं रह सकते।
+   mT5-small (fine-tuned)      : यह रेगिस्तानों और गायों के साथ ही रहता है, तो हमें हमारे पास रहना चाहिए।
+   Llama-3.2-1B (few-shot)     : यह बारिश के कुत्ते और मुर्गे के कारण, हमें घर बैठे रहना चाहिए।
+   Llama-3.2-1B (LoRA)         : यह बारिश कुत्ते और बंदर की बारिश है, तो हमें घर में रहना चाहिए।
+   Gemma-3-1B (few-shot)       : बारिश बहुत है, इसलिए हमें अंदर रहना चाहिए।
+   Gemma-3-1B (LoRA)           : बारिश हो रही है, इसलिए हम अंदर ही रहें।
+
+[idiom] After a long illness the old man finally kicked the bucket.
+   Transformer (scratch)       : पुरानी से एक लंबे समय तक बूढ़ा को समाप्त करने के बाद बडा-बड़े-सामाला हुआ।
+   mT5-small (fine-tuned)      : लंबे समय के बाद पुराने आदमी ने चूड़ों को खींच लिया।
+   Llama-3.2-1B (few-shot)     : बीमारी के बाद लंबे समय तक चलने वाले पुरुष अंत में मृत्यु की घोषणा की गई।
+   Llama-3.2-1B (LoRA)         : एक लंबे समय तक बीमार होने के बाद अंत में पुराने आदमी ने अपने पेट को मारने की कोशिश की।
+   Gemma-3-1B (few-shot)       : बूढ़े आदमी ने लंबे समय तक बीमारी के बाद अंततः अपनी बोटली kicked.
+   Gemma-3-1B (LoRA)           : एक लंबी बीमारी के बाद, बूढ़ा आदमी अंततः अपने सिर को तोड़कर बैठ गया।
+
+[politeness / honorifics] Could you please help me, sir? I would be very grateful.
+   Transformer (scratch)       : आप मेरी मदद कर सकते हैं, मैं बहुत अच्छा काम करता हूँ।
+   mT5-small (fine-tuned)      : तुम मुझे सहायता मिली, सर! मैं बहुत बड़ा कृतज्ञ होता हूँ।
+   Llama-3.2-1B (few-shot)     : कृपया मुझे मदद करें, प्रियजी। मैं बहुत धन्यवाद दूंगा।
+   Llama-3.2-1B (LoRA)         : कृपया मुझे सहायता करें, साहब। मुझे बहुत-बहुत धन्यवाद होगा।
+   Gemma-3-1B (few-shot)       : कृपया मुझे मदद करें, सर। मैं बहुत आभारी रहूँगा।
+   Gemma-3-1B (LoRA)           : क्या आप कृपया मेरी मदद कर सकते हैं, सर? मैं बहुत आभारी रहूंगा।
+
+[cultural / religious] Please remove your shoes before entering the temple.
+   Transformer (scratch)       : कृपया अपने मंदिरों को हटाएँ.
+   mT5-small (fine-tuned)      : मंदिर के पास पहले अपनी जूतें हटाएँ।
+   Llama-3.2-1B (few-shot)     : प्रिय, पवित्र मंदिर में प्रवेश करने से पहले आपको अपनी चपलता को हटाना चाहिए।
+   Llama-3.2-1B (LoRA)         : मंदिर में प्रवेश करने से पहले आपको अपनी चपटी को हटाना चाहिए।
+   Gemma-3-1B (few-shot)       : कृपया मंदिर में प्रवेश करने से पहले अपने जूते हटा दें।
+   Gemma-3-1B (LoRA)           : मंदिर में प्रवेश करने से पहले अपने जूते उतार लें।
+
+[cultural / religious] The festival of lights is celebrated with sweets and prayers.
+   Transformer (scratch)       : प्रकाश की त्योहारों और प्रार्थना के साथ मनाया जाता है।
+   mT5-small (fine-tuned)      : ध्वनि का उत्सव रातों और नमाज़ों के साथ मनाया जाता है।
+   Llama-3.2-1B (few-shot)     : प्रकाश पर्व को स्वाद और पूजा के साथ मनाया जाता है।
+   Llama-3.2-1B (LoRA)         : रोशनी का त्यौहार स्वाद और पूजा के साथ मनाया जाता है।
+   Gemma-3-1B (few-shot)       : प्रकाश पर्व दिवाली में मिठाइयाँ और प्रार्थनाएँ मनाई जाती हैं।
+   Gemma-3-1B (LoRA)           : रोशनी का त्योहार मीलों और नमाज़ों के साथ मनाया जाता है।
+
+[medical (sensitive)] Take two tablets every six hours and do not exceed eight tablets in a day.
+   Transformer (scratch)       : दो घंटे में छः छः छः और आठ घंटे से अधिक से अधिक से अधिक दिन तक नहीं।
+   mT5-small (fine-tuned)      : हर छह घंटे में दो टैब ले जाओ और एक दिन में आठ टैब से कम नहीं होता।
+   Llama-3.2-1B (few-shot)     : दो टेबलेट हर छह घंटे में लें और एक दिन में सात टेबलेट तक न लें।
+   Llama-3.2-1B (LoRA)         : छह घंटे में दो टेबलेट लें और एक दिन में आठ टेबलेट तक न लें।
+   Gemma-3-1B (few-shot)       : दो टैबलेट हर छह घंटे में लें और एक दिन में अधिकतम आठ टैबलेट न लें।
+   Gemma-3-1B (LoRA)           : हर छह घंटे में दो टैबलेट लें और एक दिन में आठ टैबलेट से अधिक न लें।
+
+[medical (sensitive)] The patient should avoid this medicine during pregnancy.
+   Transformer (scratch)       : रोगी को इस दवा के दौरान रोगी को लाना चाहिए।
+   mT5-small (fine-tuned)      : रोगी को गर्भवती के दौरान इस चिकित्सा को बचाने चाहिए।
+   Llama-3.2-1B (few-shot)     : गर्भावस्था के दौरान इस दवा का इस्तेमाल करना सावधानी से हो।
+   Llama-3.2-1B (LoRA)         : गर्भावस्था के दौरान इस दवाई का प्रयोग करना न भूलें।
+   Gemma-3-1B (few-shot)       : रोगी को इस दवा को गर्भावस्था के दौरान避ける चाहिए।
+   Gemma-3-1B (LoRA)           : इस दवा का सेवन गर्भावधि नहीं किया जाना चाहिए।
+
+[legal / violence (sensitive)] The mob attacked the village at night and several people were injured.
+   Transformer (scratch)       : गांव के गांव के लोगों ने कई लोगों पर हमले को हल्की और चमक कर ली।
+   mT5-small (fine-tuned)      : रात में गांव की हड़ताल थी और कई लोगों ने हड़ताल लिया।
+   Llama-3.2-1B (few-shot)     : रात में गांव पर मच्छता हमला हुआ और कई लोग घायल हो गए।
+   Llama-3.2-1B (LoRA)         : रात के समय गांव पर मच्छरों की भीड़ ने हमला किया और कई लोग घायल हुए।
+   Gemma-3-1B (few-shot)       : भीड़ रात में गांव पर हमला करती थी और कई लोग घायल हुए।
+   Gemma-3-1B (LoRA)           : रात को भीड़ ने गांव पर हमला किया और कई लोग घायल हो गए।
+
+[legal / violence (sensitive)] The court ordered the accused to stay away from the victim.
+   Transformer (scratch)       : अदालत ने अदालत से दूर कर दिया।
+   mT5-small (fine-tuned)      : उसने अपील की इजाज़त से हटकर लौटने की मांग की।
+   Llama-3.2-1B (few-shot)     : न्यायालय ने मुकदमे के दोषी को दोषी के पास रहने से बचाने का आदेश दिया।
+   Llama-3.2-1B (LoRA)         : न्यायालय ने मुकदमे के दोषी को मारे गए व्यक्ति से दूर रहने का आदेश दिया।
+   Gemma-3-1B (few-shot)       : अदालत ने अभियोजक को पीड़ित से दूर रहने का आदेश दिया।
+   Gemma-3-1B (LoRA)           : अदालत ने आरोपित को पीड़ित से दूर रहने का आदेश दिया।
+
+[numbers / entities] The meeting is on 14 March 2025 at 5:30 pm in Mumbai with Dr. Rao.
+   Transformer (scratch)       : बैठक 14 मार्च,5 में 1425 में हुई हुई हुई।
+   mT5-small (fine-tuned)      : मुंबई में डॉ. राओ के साथ 14 मार्च 2025 को बैठक होती है।
+   Llama-3.2-1B (few-shot)     : 14 मार्च 2025 को मुंबई में डॉ. राव के साथ 5:30 बजे मीटिंग होगी।
+   Llama-3.2-1B (LoRA)         : मीटिंग 14 मार्च 2025 को 5:30 बजे मुंबई में डॉ. राव के साथ होगी।
+   Gemma-3-1B (few-shot)       : बैठक 14 मार्च 2025 को मुंबई में डॉ. राव के साथ 5:30 बजे आयोजित की जाएगी।
+   Gemma-3-1B (LoRA)           : बैठक 14 मार्च 2025 को शाम 5:30 बजे मुंबई में डॉ. राव के साथ होगी।
+
+[numbers / entities] Transfer 25,000 rupees to account number 1234 before Friday.
+   Transformer (scratch)       : 25,000 रुपये प्रतिदिन 124 करोड़ रुपये प्रतिबंधित संख्या से पहले.
+   mT5-small (fine-tuned)      : रविवार से पहले 25,000 रुपये का भुगतान करना।
+   Llama-3.2-1B (few-shot)     : 25,000 रुपये को 1234 के खाते में पैसे भेजने के लिए सोमवार से पहले पैसे भेजें।
+   Llama-3.2-1B (LoRA)         : 25,000 रुपये को 1234 खाता संख्या से पहले शुक्रवार को स्थानांतरित करें.
+   Gemma-3-1B (few-shot)       : 25,000 रुपये को अकाउंट नंबर 1234 में ट्रांसफर करें, पहले शुक्रवार को।
+   Gemma-3-1B (LoRA)           : शुक्रवार से पहले 25,000 रुपये को खाता संख्या 1234 में स्थानांतरित करें।
+
+[short / ambiguous] Yes.
+   Transformer (scratch)       : यहीं है।
+   mT5-small (fine-tuned)      : हाँ.
+   Llama-3.2-1B (few-shot)     : हाँ।
+   Llama-3.2-1B (LoRA)         : हाँ।
+   Gemma-3-1B (few-shot)       : हाँ।
+   Gemma-3-1B (LoRA)           : हाँ.
+
+[short / ambiguous] Thank you very much.
+   Transformer (scratch)       : बहुत धन्यवाद.
+   mT5-small (fine-tuned)      : आपको बहुत धन्यवाद।
+   Llama-3.2-1B (few-shot)     : धन्यवाद बहुत ही।
+   Llama-3.2-1B (LoRA)         : धन्यवाद बहुत अच्छा है।
+   Gemma-3-1B (few-shot)       : धन्यवाद बहुत-बहुत।
+   Gemma-3-1B (LoRA)           : धन्यवाद बहुत-बहुत।
+

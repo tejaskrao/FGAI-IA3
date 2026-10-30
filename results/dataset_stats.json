@@ -1,0 +1,10 @@
+{
+  "dataset": "cfilt/iitb-english-hindi",
+  "train_pairs": 50000,
+  "val_pairs": 500,
+  "test_pairs": 500,
+  "avg_en_words": 14.92,
+  "avg_hi_words": 16.27,
+  "en_word_types": 66732,
+  "hi_word_types": 70703
+}
